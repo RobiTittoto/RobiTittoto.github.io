@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    position: relative; 
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding:0.2%;
+    font-size: 200%;
+}
+    
+
+div{  
+    
+    position: absolute;
+    width: 33%;
+    height: 85%;
+    text-align: center;
+    color: white;
+    font-size: 280%;
+}
+
+div.centro{
+    left: 33%;
+}
+
+div.destra{
+    left: 66%
+}
+
+#imgLaterali{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+
+#tabellaSquadre{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+}
+#logoSquadra{
+    width: 100px;
+}
+
+
+
+#bottone{
+    margin-top: 5%;
+    padding: 3.5% 6%;
+    background-color: white;
+    border: none;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#bottone:hover {
+    background-color: black;
+    color: white;}
+
+#balotellateTesto{
+    width: 70%;
+    margin-top: 5%;
+    padding: 3.5% 6%;
+    background-color: white;
+    border: none;
+    color: black;
+    display: inline-block;
+    text-align:left;
+    font-size: 80%;
+}
